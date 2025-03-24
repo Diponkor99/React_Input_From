@@ -20,7 +20,7 @@ useEffect(()=>{
             <form onClick={handelOnClick} className='m-4 bg-lime-200 p-2 rounded-md md:w-3/6 mx-auto'>
                <input ref={nameRef} type="text" className='input my-2 ' placeholder='Name' />
                <br />
-               <input ref={emailRef} type="email" className='input my-2' defaultValue={} placeholder='Email' />
+               <input ref={emailRef} type="email" className='input my-2' defaultValue={"gmail.com"} placeholder='Email' />
                <br />
                <input ref={PasswordRef} type="password" className='input my-2' placeholder='Password' />
                <br />
