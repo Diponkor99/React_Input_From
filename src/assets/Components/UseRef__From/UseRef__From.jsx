@@ -16,7 +16,7 @@ useEffect(()=>{
     nameRef.current.focus();
 },[])
     return (
-        <div >
+        <div className='border-4 border-amber-900  my-5 p-3'>
             <form onClick={handelOnClick} className='m-4 bg-lime-200 p-2 rounded-md md:w-3/6 mx-auto'>
                <input ref={nameRef} type="text" className='input my-2 ' placeholder='Name' />
                <br />

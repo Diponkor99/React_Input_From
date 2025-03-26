@@ -7,8 +7,8 @@ const FromSateUp = () => {
          console.log(e.target.phone.value)
     }
     return (
-        <div className="text-center">
-           <form onSubmit={handelSubmit}>
+        <div className="text-center ">
+           <form onSubmit={handelSubmit} className="border-4 border-amber-900  my-5 p-3">
            <input type="text" placeholder="Name" className="input input-neutral my-2" name="name"/>
            <br />
            <input type="email" placeholder="Email" className="input input-neutral my-2" name="email"/>

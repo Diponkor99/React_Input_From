@@ -13,7 +13,7 @@ const CustomFrom = () => {
     }
 
     return (
-        <div className='text-center'>
+        <div className='text-center border-4 border-amber-900  my-5 p-3'>
             <form onSubmit={handelOnsubmit}>
                 <input  onChange={onChangeName}  type="text" placeholder="Name" className="input input-neutral my-2" name="name" />
                 <br />
